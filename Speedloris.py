@@ -62,7 +62,7 @@ parser.add_argument(
 )
 parser.set_defaults(verbose=False)
 parser.set_defaults(randuseragent=False)
-parser.set_defaults(useproxy=True)
+parser.set_defaults(useproxy=False)
 parser.set_defaults(https=False)
 args = parser.parse_args()
 
