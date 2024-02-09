@@ -7,7 +7,7 @@ import sys
 import time
 
 parser = argparse.ArgumentParser(
-    description="Speedloris, low bandwidth stress test tool for websites"
+    description="Speedloris, high bandwidth stress tool for websites - coded by Naveen"
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
@@ -16,7 +16,7 @@ parser.add_argument(
 parser.add_argument(
     "-s",
     "--sockets",
-    default=200,
+    default=200
     help="Number of sockets to use in the test",
     type=int,
 )
@@ -171,7 +171,7 @@ def init_socket(ip: str):
 
 
 def speedloris_iteration():
-    logging.info("Sending keep-alive headers...")
+    logging.info("Blocking -live website...")
     logging.info("Socket count: %s", len(list_of_sockets))
 
     # Try to send a header line to each socket
