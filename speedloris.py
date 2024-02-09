@@ -7,7 +7,7 @@ import sys
 import time
 
 parser = argparse.ArgumentParser(
-    description="Speedloris, high bandwidth stress tool for websites - coded by Naveen"
+    description="Speedloris, high bandwidth stress tool for websites - coded by Naveen",
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
