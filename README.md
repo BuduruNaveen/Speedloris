@@ -5,23 +5,23 @@
  The tool is available on Both Termux & Kali Linux....
  
  Kali Linux:
-> sudo apt update
-> apt install git
-> git clone https://github.com/BuduruNaveen/Speedloris.git
-> cd Speedloris
-> ls
-> sudo python speedloris.py -sXXXX www.example.com -p 8080
+ sudo apt update
+ apt install git
+ git clone https://github.com/BuduruNaveen/Speedloris.git
+ cd Speedloris
+ ls
+ sudo python speedloris.py -sXXXX www.example.com -p 8080
 
 
  Termux :
-> apt update && apt upgrade
-> pkg update
-> pkg upgrade
-> pkg install git
-> git clone https://github.com/BuduruNaveen/Speedloris.git
-> cd Speedloris
-> ls
-> python speedloris.py -sXXXX www.example.com -p 8080
+ apt update && apt upgrade
+ pkg update
+ pkg upgrade
+ pkg install git
+ git clone https://github.com/BuduruNaveen/Speedloris.git
+ cd Speedloris
+ ls
+ python speedloris.py -sXXXX www.example.com -p 8080
 
  Note : This tool is Made for educational purposes only.....
 
