@@ -39,7 +39,7 @@ import sys
 import time
 
 parser = argparse.ArgumentParser(
-    description="Speedloris, a powerful DDoS tool for websites - Coded by Naveenventure",
+    description="Speedloris, a powerful DDoS tool for websites",
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
