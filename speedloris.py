@@ -88,7 +88,7 @@ parser.add_argument(
 parser.add_argument(
     "--sleeptime",
     dest="sleeptime",
-    default=15,
+    default=2,
     type=int,
     help="Time to sleep between each header sent.",
 )
